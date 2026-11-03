@@ -1,0 +1,63 @@
+/* Bước 3: Định dạng thẻ body (Dùng font chữ hiện đại, nền sáng nhẹ để nổi bật nội dung) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: #fcfcfc;
+    color: #1a1a1a;
+}
+
+/* Bước 4: Định dạng thẻ header (Dùng màu đen sang trọng làm nền vùng đầu trang) */
+header {
+    background-color: #151515;
+    padding: 15px 0;
+}
+
+/* Bước 5: Định dạng thẻ nav (Thanh điều hướng màu vàng gold rực rỡ, bo góc nhẹ) */
+nav {
+    background-color: #FFCB05; /* Màu vàng Gold đặc trưng rất sang, không bị xỉn hay chói quá */
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Bước 6: Định dạng thẻ main (Màu nền nội dung chính - phối màu vàng nhạt pastel để dịu mắt) */
+main {
+    background-color: #FFFDF0; 
+    font-size: 1.1rem;
+    padding: 20px;
+}
+
+/* Bước 7: Định dạng thẻ footer (Vùng chân trang màu đen để đồng bộ với header) */
+footer {
+    background-color: #151515;
+    color: #ffffff;
+    padding: 15px;
+}
+
+/* Bước 8: Định dạng thẻ li (Menu nằm ngang, khoảng cách đều nhau) */
+li {
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+}
+
+/* Thêm định dạng cho chữ trong menu để nổi bật trên nền vàng */
+li a {
+    color: #151515 !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Bước 9: Định dạng thẻ h1 (Tiêu đề lớn màu vàng gold, căn giữa, font chữ đậm nét) */
+h1 {
+    text-align: center;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color: #FFCB05;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Bước 10: Định dạng thẻ p (Khoảng cách dòng thoáng đãng, dễ đọc) */
+p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
